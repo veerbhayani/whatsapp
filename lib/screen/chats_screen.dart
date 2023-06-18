@@ -7,12 +7,12 @@ class Chats extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: const Column(
         children: [
           Expanded(
             child: SingleChildScrollView(
               child: Column(
-                children: const [
+                children: [
                   ListTile(
                     leading: CircleAvatar(
                       radius: 24,
@@ -363,7 +363,7 @@ class Chats extends StatelessWidget {
         ),
         backgroundColor: Colors.green,
         child: const Icon(
-          Icons.send_sharp,
+          Icons.message,
           color: Colors.white,
         ),
       ),

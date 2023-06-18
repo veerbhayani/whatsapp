@@ -107,9 +107,9 @@ class CommunityTab extends StatelessWidget {
                               style: TextStyle(fontSize: 12),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 SizedBox(
                                   width: 20,
                                 ),
@@ -184,9 +184,9 @@ class CommunityTab extends StatelessWidget {
                           const SizedBox(
                             height: 10,
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 SizedBox(
                                   width: 20,
                                 ),
@@ -281,9 +281,9 @@ class CommunityTab extends StatelessWidget {
                               style: TextStyle(fontSize: 12),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Row(
-                              children: const [
+                              children: [
                                 SizedBox(
                                   width: 20,
                                 ),

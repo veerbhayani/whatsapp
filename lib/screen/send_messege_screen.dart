@@ -17,9 +17,9 @@ class SendMessegeScreen extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        title: Column(
+        title: const Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
+          children: [
             Text(
               'Select contact',
               style: TextStyle(
@@ -54,16 +54,16 @@ class SendMessegeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
+      body: const Column(
         children: [
           Expanded(
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  const SizedBox(
+                  SizedBox(
                     height: 15,
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Color(0xFF128C7E),
                       child: Icon(
@@ -79,10 +79,10 @@ class SendMessegeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Color(0xFF128C7E),
                       child: Icon(
@@ -100,10 +100,10 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     trailing: Icon(Icons.qr_code_2_rounded),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundColor: Color(0xFF128C7E),
                       child: Icon(
@@ -119,11 +119,11 @@ class SendMessegeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 15,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       SizedBox(
                         width: 15,
                       ),
@@ -136,10 +136,10 @@ class SendMessegeScreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/b2/51/25/b2512526e7727814658f4c2eda14beac.jpg'),
@@ -153,7 +153,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Messege yourself'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/07/f8/7c/07f87c6c599a8aac43d72c1e6bf25e66.jpg'),
@@ -166,7 +166,7 @@ class SendMessegeScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/68/7c/cf/687ccf6f9a7987377f8eec6aba64e409.jpg'),
@@ -180,7 +180,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/84/0d/b4/840db4ea8cfc4d63fb8b1ff30310bc33.jpg'),
@@ -194,7 +194,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/1a/96/cb/1a96cb61e050dda1eebed5fe9d82e65b.jpg'),
@@ -208,7 +208,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/00/1b/cf/001bcf43a7251d93ce6a77937d42cce4.jpg'),
@@ -222,7 +222,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('"I wish, i couldbe a better me, for you"'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/26/13/68/26136804aca2898dbb3cad1cbcdbe3f7.jpg'),
@@ -236,7 +236,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/49/93/5b/49935b0b7f9a368ca0abb641e1a3860e.jpg'),
@@ -250,7 +250,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Available'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/4c/13/d1/4c13d14ca73264fe07e7c5cbf198eeb5.jpg'),
@@ -264,7 +264,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/81/02/69/810269f9effe77613a90078ae99f45ca.jpg'),
@@ -278,7 +278,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('🙏'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/11/1c/52/111c52c59bc8e1d5dfd0e79feeb09eaf.jpg'),
@@ -292,7 +292,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Urgent calls only'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/db/36/70/db36704e3d69cecb83c467cc6e73f3a7.jpg'),
@@ -307,7 +307,7 @@ class SendMessegeScreen extends StatelessWidget {
                     subtitle:
                         Text('Aai pithad air conditioner sales & service'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/31/ad/25/31ad25b5cdedc85b8fd07555f45728e6.jpg'),
@@ -321,7 +321,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Jay Swaminarayan 🙏🙏🙏'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/d2/77/10/d2771092926a99fb837e3a298a726a95.jpg'),
@@ -335,7 +335,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/55/e5/ec/55e5ec815cccf644c4bd3fd523b23d76.jpg'),
@@ -349,7 +349,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/e6/91/37/e69137305a9fecaef8e994acbfa06503.jpg'),
@@ -363,7 +363,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('At the gym'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/f7/59/f1/f759f1a6c78c54e7c41a99ff2da50d40.jpg'),
@@ -377,7 +377,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/f2/d0/eb/f2d0ebe51ed3066ca68f175841710d6e.jpg'),
@@ -391,7 +391,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('My Life My Rule'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/80/44/33/8044339987769a15a5aef6b41c5a6489.jpg'),
@@ -405,7 +405,7 @@ class SendMessegeScreen extends StatelessWidget {
                     ),
                     subtitle: Text('Hey there! I am using Whatsapp.'),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://i.pinimg.com/236x/ef/8d/0d/ef8d0dc5f72b0961d577babcb3f8778a.jpg'),

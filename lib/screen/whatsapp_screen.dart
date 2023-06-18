@@ -4,7 +4,7 @@ import 'package:whatsapp/screen/chats_screen.dart';
 import 'package:whatsapp/screen/community_screen.dart';
 import 'package:whatsapp/screen/status_screen.dart';
 
-import '../whatspp.controller.dart';
+import '../whatsapp.controller.dart';
 
 class Whatsapp extends StatefulWidget {
   const Whatsapp({super.key});

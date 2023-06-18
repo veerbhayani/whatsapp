@@ -6,13 +6,13 @@ class StatusTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: const Column(
         children: [
           Expanded(
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -30,11 +30,11 @@ class StatusTab extends StatelessWidget {
                     ),
                     trailing: Icon(Icons.more_horiz),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
                   Row(
-                    children: const [
+                    children: [
                       SizedBox(
                         width: 15,
                         height: 10,
@@ -48,10 +48,10 @@ class StatusTab extends StatelessWidget {
                       )
                     ],
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 10,
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -68,7 +68,7 @@ class StatusTab extends StatelessWidget {
                       '34 minites ago',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -85,7 +85,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 6:28 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -102,7 +102,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 6:15 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -119,7 +119,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 5:06 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -136,7 +136,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 4:04 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -153,7 +153,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 2:02 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -170,7 +170,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 1:57 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
@@ -187,7 +187,7 @@ class StatusTab extends StatelessWidget {
                       'Today, 1:46 pm',
                     ),
                   ),
-                  const ListTile(
+                  ListTile(
                     leading: CircleAvatar(
                       radius: 24,
                       backgroundImage: NetworkImage(
