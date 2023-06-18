@@ -4,6 +4,8 @@ import 'package:whatsapp/screen/chats_screen.dart';
 import 'package:whatsapp/screen/community_screen.dart';
 import 'package:whatsapp/screen/status_screen.dart';
 
+import '../whatspp.controller.dart';
+
 class Whatsapp extends StatefulWidget {
   const Whatsapp({super.key});
 
@@ -36,26 +38,54 @@ class _WhatsappState extends State<Whatsapp> with TickerProviderStateMixin {
           style: TextStyle(
               fontSize: 23, fontWeight: FontWeight.w500, color: Colors.white),
         ),
-        actions: const [
-          Icon(
+        actions: [
+          const Icon(
             Icons.camera_alt_outlined,
             color: Colors.white,
           ),
-          SizedBox(
+          const SizedBox(
             width: 20,
           ),
-          Icon(
+          const Icon(
             Icons.search,
             color: Colors.white,
           ),
-          SizedBox(
+          const SizedBox(
             width: 15,
           ),
-          Icon(
-            Icons.more_vert,
+          PopupMenuButton<WhatsappMenu>(
+            initialValue: selectedMenu,
             color: Colors.white,
+            onSelected: (WhatsappMenu item) {
+              setState(() {
+                selectedMenu = item;
+              });
+            },
+            itemBuilder: (BuildContext context) =>
+                <PopupMenuEntry<WhatsappMenu>>[
+              const PopupMenuItem<WhatsappMenu>(
+                value: WhatsappMenu.newChat,
+                child: Text('New Chat'),
+              ),
+              const PopupMenuItem<WhatsappMenu>(
+                value: WhatsappMenu.newGroup,
+                child: Text('New Group'),
+              ),
+              const PopupMenuItem<WhatsappMenu>(
+                value: WhatsappMenu.newBroadcast,
+                child: Text('New Broadcast'),
+              ),
+              const PopupMenuItem<WhatsappMenu>(
+                value: WhatsappMenu.payments,
+                child: Text('Payments'),
+              ),
+              const PopupMenuItem<WhatsappMenu>(
+                value: WhatsappMenu.linkDevices,
+                child: Text('Linked Devices'),
+              ),
+            ],
           ),
-          SizedBox(
+          const SizedBox(
             width: 10,
           ),
         ],
